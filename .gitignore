@@ -1,0 +1,22 @@
+.DS_Store
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+__pycache__/
+.venv/
+
+# 原始生产数据、日志和密钥不进入个人仓库
+data/raw/
+logs/
+.env
+.env.*
+*.pem
+*.key
+
+# 当前从公司环境临时拷出的原始 SQL 仅供本机核验，不纳入个人 Git
+/*.sql
+/local-only/
